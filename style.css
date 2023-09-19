@@ -1,0 +1,104 @@
+body{
+    background-color: beige;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: row;
+}
+container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px black solid;
+   
+    background-color: lightgray;
+    margin: auto;
+    height: auto;
+    padding:15px;
+    width: auto;
+    flex-shrink: 0;
+}
+.display{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: last baseline;
+    align-items: end;
+    padding-right: 7px;
+    width: 90%;
+    height: 52px;
+    visibility: visible;
+    border: black 2px solid;
+    border-radius: 5px;
+}
+.row{
+  margin: 20px;
+  display: flex;
+}
+button{
+    height: 60px;
+    width: 70px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: darkgray;
+    color: white;
+    transition: all .25s ease-in-out;
+    font-size: larger;
+  
+}
+#plus {
+   height: 140px;
+   margin-top: 100;
+
+}
+.span{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+   margin-top: -160px;
+   margin-inline: 20px;
+    
+}
+
+#back{
+    display: flex;
+    flex-grow: 1;
+    background-color: lightsalmon;
+    border: 2px solid black;
+}
+button.number:hover{
+    background-color: aquamarine;
+    color: black;
+    transform: translateY(-.4rem);
+}
+button.operator:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    transform: translateY(-.4rem);
+}
+#AC:hover {
+    background-color: lightpink;
+    color: black;
+    transform: translateY(-.4rem);
+}
+#C:hover {
+    background-color: lightpink;
+    color: black;
+    transform: translateY(-.4rem);
+}
+#back:hover {
+    background-color: lightpink;
+    color: black;
+    transform: translateY(-.4rem);
+}
+button.equals:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    transform: translateY(-.4rem);
+}
